@@ -1,0 +1,72 @@
+.title{
+  text-align: center; 
+}
+.text{
+  margin:50px auto;
+  background-color:black;
+}
+.bold{
+  font-weight:bold;
+}
+body{
+  background-color: black;
+}
+button {
+  cursor: pointer;
+  color: #0a0a23;
+  background-color: black;
+  border: 3px solid black;
+}
+
+/*Not Important*/
+.navbar {
+  background-color: #420303;
+  top:0px;
+  width: 100%;
+  left:0px;
+  position: absolute;
+  z-index: 999;
+  border: #000000;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: #420303;
+  border: #000000;
+  border-width: 5px;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a {
+  color: white;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* Style the dropdown menu */
+.navbar ul ul {
+  position: absolute;
+  top: 100%;
+  display: none;
+  border:#000000;
+  border-width: 5px;
+}
+
+.navbar ul ul li {
+  display: block;
+}
+
+.navbar li:hover ul {
+  display: block;
+}
+
+/* Change the background color of dropdown links on hover */
+.navbar ul ul li a:hover {
+  background-color: #555;
+}
